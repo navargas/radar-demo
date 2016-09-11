@@ -31,7 +31,7 @@ class Board:
         curY = self.height/2
         curX = self.width/2
         while curX < self.width-1 and curY < self.height-1 and curX > 0 and curY > 0:
-            self.pad.addch(int(curY), int(curX), ord('.'), curses.color_pair(1))
+            self.pad.addch(int(curY), int(curX), ord('='), curses.color_pair(1))
             # Increase by cos/sin of angle until border is reached
             curY += math.cos(math.radians(angle))
             curX += math.sin(math.radians(angle))
