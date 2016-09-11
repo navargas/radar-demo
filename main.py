@@ -7,6 +7,12 @@ import time
 import math
 import sys
 
+try:
+    import curses
+except ImportError as e:
+    print "Cannot import curses. Try running 'pip install curses'"
+    sys.exit(1)
+
 # Catch sigint
 def cancel(signum,frame):
     curses.endwin()
