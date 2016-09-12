@@ -2,27 +2,7 @@
 
 Creates a spinning scanning radar sort of effect.
 
-```
-                                                             |
-                                                             |
-                                                             |
-                                                             |
-                                                             |
-                                                             |
-                                                             |
-                                                             |
-                                                             |    (for example)
-                            ==@                              |         |
-                         ===                                 |         |
-                      ===                                    |      <--+
-                   ===                                       |
-                 ==                                          |
-               ==                                            |
-            ===                                              |
-         ===                                                 |
-       ==                                                    |
-    ===                                                      |
-```
+<img width="948" alt="screen shot 2018-02-08 at 5 11 33 pm" src="https://user-images.githubusercontent.com/8397737/36006862-4d6732ce-0cf4-11e8-95f7-7b6a5e843ea1.png">
 
 # License
 
